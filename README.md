@@ -3,6 +3,7 @@
 * `/viewforum.php?f=1 becomes /forum/1/`
 * `/viewtopic.php?f=1&t=2 becomes /forum/1/topic/2/`
 * `/viewtopic.php?f=1&t=2&start=3 becomes /forum/1/topic/2/start/3/`
+* `/viewtopic.php?p=1 becomes /post/1/`
 
 nginx config rules. add these to location / {
 	
